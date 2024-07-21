@@ -94,8 +94,16 @@ ul {
 .fcc-title,
 .playlist-title {
   color: var(--secondary-color);
-  margin: 0 10px;
+  margin: 0;
+  padding: 0;
   font-family: var(--font-headline);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .player-content {
@@ -365,5 +373,10 @@ button:focus,
     height: 280px;
     justify-content: space-between;
     text-align: center;
+  }
+
+  .fcc-title,
+  .playlist-title {
+    font-size: 0.813rem;
   }
 }
