@@ -35,3 +35,24 @@ console.log(number.toString());
 console.log(variable.length.toString());
 //.isNaN()
 console.log(Number.isNaN(NaN));
+
+//Math
+Math.PI();
+//removes decimals
+Math.trunc();
+//rounds to nearest whole number
+Math.round();
+//rounds up
+Math.ceil();
+//rounds down
+Math.floor();
+//power
+Math.pow();
+//minimum
+Math.min();
+//maximum
+Math.max();
+//random number always between 0 &1
+Math.random();
+//random number between 1 & 10 (replace 10 with the maximum number you want)
+Math.floor(Math.random() * 10) + 1; //using math ceil has a chance of getting 0
