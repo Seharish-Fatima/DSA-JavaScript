@@ -56,3 +56,12 @@ Math.max();
 Math.random();
 //random number between 1 & 10 (replace 10 with the maximum number you want)
 Math.floor(Math.random() * 10) + 1; //using math ceil has a chance of getting 0
+
+//code that returns a random letter from a given string
+const string = "Seharish";
+console.log(string.charAt(Math.floor(Math.random() * string.length)));
+
+// User Input
+alert("Hello World");
+confirm("Ok === True\nCancel === False");
+prompt("Enter your name:");
